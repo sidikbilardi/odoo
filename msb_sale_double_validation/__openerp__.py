@@ -29,7 +29,7 @@
 ##############################################################################
 
 {
-    'name': 'sale order double validation',
+    'name': 'Sale Order Validation Step',
     'version': '1.0.0',
     'category': '',
     'description': """
@@ -44,4 +44,6 @@ Additional Step to validate Sales Orders and additional access for them
     'test': [],
     'installable': True,
     'active': False,
+    'price': 30.00,
+    'currency': 'USD',
 }
