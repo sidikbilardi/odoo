@@ -33,11 +33,10 @@
     'version': '1.0.0',
     'category': '',
     'description': """
-In some organisations people want an extra state between draft - send and confirmed.
-This module adds state validated to sale order and puts also a menu extra in the sales
+Additional Step to validate Sales Orders and additional access for them
     """,
-    'author': 'Agaplan',
-    'website': 'http://www.agaplan.eu',
+    'author': 'Sidik Bilardi',
+    'website': 'https://www.facebook.com/sidikbilardi',
     'depends': ['sale_stock'],
     'init': [],
     'data': ['sale_view.xml','sale_workflow.xml','security/stock_security.xml'],
