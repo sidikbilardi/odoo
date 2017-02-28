@@ -29,7 +29,7 @@
 ##############################################################################
 
 {
-    'name': 'Sales Order Validation Step',
+    'name': 'Double Validation on Sales Order',
     'version': '1.0.0',
     'category': '',
     'description': """

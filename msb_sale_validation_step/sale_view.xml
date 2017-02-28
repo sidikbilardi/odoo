@@ -16,10 +16,10 @@
                     <attribute name="states">null</attribute>
                 </xpath>
                     <xpath expr="//button[@name='action_cancel']" position="attributes">
-                    <attribute name="states">validated</attribute>
+                    <attribute name="states">validated,progress</attribute>
                 </xpath>
                 <button name="action_button_confirm" position="replace">
-                    <button name="action_button_confirm" states="validated" class="oe_highlight" string="Confirm Sale" type="object" groups="sale_double_validation.msb_group_confirm_sales_orders"/>
+                    <button name="action_button_confirm" states="validated" class="oe_highlight" string="Confirm Sale" type="object" groups="msb_sale_validation_step.msb_group_confirm_sales_orders"/>
                 </button>                
             </field>
         </record>
